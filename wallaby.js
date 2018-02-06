@@ -9,6 +9,7 @@ module.exports = function(wallaby) {
       'src/**/*.js?(x)',
       '!src/**/*.test.ts?(x)',
       'package.json',
+      'tsconfig.json',
       { pattern: 'src/test/Storybook/storyLoader.js', instrument: false },
     ],
     tests: ['src/**/*.test.ts?(x)'],

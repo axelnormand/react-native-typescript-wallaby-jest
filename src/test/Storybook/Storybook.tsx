@@ -1,17 +1,17 @@
 import { configure, getStorybookUI } from '@storybook/react-native';
 import React from 'react';
-import { loadStories, stories } from './storyLoader';
+import { loadStories } from './storyLoader';
 
 //
 // Storybook Component and init
 //
 
 const getStorybook = () => {
-    configure(() => {
-      loadStories();
-    }, module);
+  configure(() => {
+    loadStories();
+  }, module);
 
-    return getStorybookUI();
+  return getStorybookUI();
 };
 
 // react-native hot module loader must take in a Class - https://github.com/facebook/react-native/issues/10991 | https://github.com/storybooks/storybook/issues/2081

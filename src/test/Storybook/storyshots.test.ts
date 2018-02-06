@@ -3,6 +3,7 @@ import initStoryshots, {
 } from '@storybook/addon-storyshots';
 import { shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
+import path from 'path';
 
 //
 // initialise storyshots

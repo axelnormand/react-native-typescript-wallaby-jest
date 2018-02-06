@@ -34,7 +34,7 @@ declare module '@storybook/react-native' {
     stories: StoryObject[];
   }
 
-  export function getStorybookUI(config: {
+  export function getStorybookUI(config?: {
     port: number;
     onDeviceUI: boolean;
     host: string;

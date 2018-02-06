@@ -1,0 +1,32 @@
+{
+  "search.useIgnoreFiles": true,
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/build": true,
+    "**/dist": true,
+    "**/temp": true
+  },
+  "files.associations": {
+    "*.snap": "xml"
+  },
+  "react-native-storybooks.port": 7007,
+  "runCurrentTest.run":
+    "cd companion; jest ${testFilePath} --testNamePattern \"${fullTestName}\"",
+  "runCurrentTest.runAndUpdateSnapshots":
+    "cd companion; jest -u ${testFilePath} --testNamePattern \"${fullTestName}\"",
+  "tslint.autoFixOnSave": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "material-icon-theme.files.associations": {
+    "*.story.js": "smarty"
+  }
+}
