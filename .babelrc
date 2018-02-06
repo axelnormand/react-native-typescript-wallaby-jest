@@ -1,0 +1,9 @@
+{
+  "presets": ["babel-preset-jest", "babel-preset-expo", "react-native"],
+  "sourceMaps": "inline",
+  "env": {
+    "development": {
+      "plugins": ["transform-react-jsx-source"]
+    }
+  }
+}

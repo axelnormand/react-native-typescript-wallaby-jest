@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "React Native Typescript Wallaby Jest",
+    "slug": "react-native-typescript-wallaby-jest",
+    "sdkVersion": "24.0.0",
+    "packagerOpts": {
+      "sourceExts": ["ts", "tsx"],
+      "transformer": "node_modules/react-native-typescript-transformer/index.js"
+    },
+    "privacy": "unlisted",
+  }
+}
