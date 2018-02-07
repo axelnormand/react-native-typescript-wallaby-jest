@@ -16,7 +16,10 @@ Any feedback appreciated.
 ### Then build & run project
 
 * `yarn install`
-* `yarn start`
+* `yarn start` to run
+* `yarn test` to jest tests
+* `yarn storybook` to run storybook
+* `yarn lint` to run tslint
 
 ## Notes
 
@@ -26,5 +29,6 @@ Any feedback appreciated.
 * Jest has to use ts-jest to compile ts and then babel to hoist jest.mock()
 * Jest coverage to JUnit xml
 * Some nice TS Lint rules
+* JSDom with Enzyme setup so can use `shallow` and `mount` and looks nice in jest snapshots with enzyme serializer
 * Prettier is awesome
 * Wallaby also awesome
