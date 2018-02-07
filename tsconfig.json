@@ -20,7 +20,7 @@
     "noEmit": true,
     "strict": true,
     "sourceMap": true,
-    "types": ["react", "react-native", "jest", "node"],
+    "types": ["react", "react-native", "jest"],
     "baseUrl": "." //allow absolute imports eg import Button from 'src/comps/Button'
   },
   "exclude": [
