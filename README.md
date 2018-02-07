@@ -10,7 +10,6 @@ All the config I found quite a pain to setup so maybe this will help someone.
 * `npm install --global yarn`
 * `yarn global add typescript`
 * `yarn global add jest`
-* `yarn global add react-native-cli`
 
 ### Then build & run project
 
