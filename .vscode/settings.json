@@ -15,7 +15,8 @@
     "**/temp": true
   },
   "files.associations": {
-    "*.snap": "xml"
+    "*.snap": "xml",
+    "*.storyshot": "xml"
   },
   "react-native-storybooks.port": 7007,
   "runCurrentTest.run":
@@ -27,6 +28,6 @@
   "editor.formatOnType": true,
   "editor.formatOnPaste": true,
   "material-icon-theme.files.associations": {
-    "*.story.js": "smarty"
+    "*.story.tsx": "smarty"
   }
 }

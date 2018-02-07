@@ -75,11 +75,9 @@
   },
   "config": {
     "react-native-storybook-loader": {
-      "searchDir": [
-        "./src"
-      ],
+      "searchDir": ["./src"],
       "pattern": "**/*.story.tsx",
-      "outputFile": "./src/test/Storybook/storyLoader.js"
+      "outputFile": "./src/test/storybook/storyLoader.js"
     }
   },
   "jest-junit": {

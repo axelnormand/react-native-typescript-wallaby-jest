@@ -7,15 +7,15 @@ module.exports = function(wallaby) {
     files: [
       'src/**/*.ts?(x)',
       'src/**/*.js?(x)',
+      'src/**/*.json',
       '!src/**/*.test.ts?(x)',
       'package.json',
       'tsconfig.json',
-      { pattern: 'src/test/Storybook/storyLoader.js', instrument: false },
+      'jest.config.js',
     ],
     tests: ['src/**/*.test.ts?(x)'],
     env: { type: 'node', runner: 'node' },
     testFramework: 'jest',
-
     // like ts-jest need to hoist jest.mock() so use babel after ts to js
     // https://github.com/wallabyjs/public/issues/1375
     preprocessors: {
@@ -27,7 +27,6 @@ module.exports = function(wallaby) {
           babelrc: true,
         }),
     },
-
     debug: true,
     reportConsoleErrorAsError: true,
     lowCoverageThreshold: 80,

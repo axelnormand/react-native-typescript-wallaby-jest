@@ -6,10 +6,12 @@ import toJson from 'enzyme-to-json';
 // @ts-ignore path import will be fixed when remove `globalFixes.d.ts` as @types/node clashes with @types/react-native require
 import path from 'path';
 
-//
-// initialise storyshots
-//
+// fix _global import in storyshots code to be jest global including describe method
+jest.mock('global', () => global);
 
+/**
+ * initialise storyshots
+ */
 initStoryshots({
   framework: 'react-native',
   configPath: path.join(__dirname, 'storyshots.config.js'),
