@@ -3,6 +3,7 @@ import initStoryshots, {
 } from '@storybook/addon-storyshots';
 import { shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
+// @ts-ignore path import will be fixed when remove `globalFixes.d.ts` as @types/node clashes with @types/react-native require
 import path from 'path';
 
 //
