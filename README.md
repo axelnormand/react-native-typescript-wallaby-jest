@@ -2,7 +2,7 @@
 
 All the config I found quite a pain to setup so maybe this will help someone.
 
-Feedback & tips appreciated.
+Any feedback appreciated.
 
 ## Install & Run
 
