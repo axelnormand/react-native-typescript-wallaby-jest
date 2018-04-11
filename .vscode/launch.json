@@ -2,19 +2,19 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Jest File (Companion)",
+      "name": "Jest",
       "type": "node",
       "request": "launch",
-      "program": "${workspaceRoot}/companion/node_modules/jest-cli/bin/jest.js", //TODO: when use yarn workspaces move me back to just node_modules
+      "program": "${workspaceRoot}/node_modules/jest-cli/bin/jest.js",
       "stopOnEntry": false,
       "args": [
         "--config",
-        "${workspaceRoot}/companion/jest.config.js",
+        "${workspaceRoot}/jest.config.js",
         "--runInBand",
         "--colors",
         "${fileBasename}"
       ],
-      "cwd": "${workspaceRoot}/companion",
+      "cwd": "${workspaceRoot}",
       "preLaunchTask": null,
       "runtimeExecutable": null,
       "runtimeArgs": ["--nolazy"],
