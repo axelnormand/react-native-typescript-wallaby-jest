@@ -9,6 +9,7 @@ module.exports = function(wallaby) {
       'src/**/*.js?(x)',
       'src/**/*.json',
       '!src/**/*.test.ts?(x)',
+      'tools/**/*.js',
       'package.json',
       'tsconfig.json',
       'jest.config.js',
