@@ -27,6 +27,4 @@ class StorybookUIHMRRoot extends React.Component<any> {
   }
 }
 
-// AppRegistry not needed for Expo
-// AppRegistry.registerComponent('glide-companion', () => StorybookUIHMRRoot);
 export default StorybookUIHMRRoot;
